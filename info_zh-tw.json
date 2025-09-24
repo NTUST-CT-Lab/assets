@@ -121,7 +121,7 @@
                 "titles": ["碩一"],
                 "image": "/assets/images/4eaef7478509a35cad9c5bcf94cf743e.jpeg",
                 "email": "mirojing22@gmail.com",
-                "email_edu": "B11006129@mail.ntust.edu.tw",
+                "email_edu": "M11406121@mail.ntust.edu.tw",
                 "research": "MEA 溶劑的再生",
                 "bio": ""
             }, {
@@ -138,6 +138,38 @@
                 "image": "/assets/images/80fa93e8de245c5d218615f88c9f5155.jpg",
                 "email": "huangsiaoyuan@gmail.com",
                 "email_edu": "M11406009@mail.ntust.edu.tw",
+                "research": "",
+                "bio": ""
+            }, {
+                "name": "何岳樺",
+                "titles": ["碩一"],
+                "image": "/assets/images/4a358e59470d0945d583f6e0982fe80c.jpg",
+                "email": "M11453030@gmail.com",
+                "email_edu": "M11453030@mail.ntust.edu.tw",
+                "research": "",
+                "bio": ""
+            }, {
+                "name": "陳柏宇",
+                "titles": ["專題生"],
+                "image": "/assets/images/2d20c9f689a80314274c9629eddf912d.jpg",
+                "email": "chenllov@gmail.com",
+                "email_edu": "B11106117@mail.ntust.edu.tw",
+                "research": "",
+                "bio": ""
+            }, {
+                "name": "林澄科",
+                "titles": ["專題生"],
+                "image": "/assets/images/0e8c7799f49369243f826668dbb83097.jpg",
+                "email": "9431319@gmail.com",
+                "email_edu": "b11206023@mail.ntust.edu.tw",
+                "research": "",
+                "bio": ""
+            }, {
+                "name": "童中志",
+                "titles": ["專題生"],
+                "image": "/assets/images/f492994aa5e5c57336e72b59119002cb.jpg",
+                "email": "tony091817@gmail.com",
+                "email_edu": "b11206117@mail.ntust.edu.tw",
                 "research": "",
                 "bio": ""
             }, {
@@ -196,22 +228,6 @@
                 "email_edu": "M11106047@mail.ntust.edu.tw",
                 "research": "鹽溶液熱力學及輸送性質",
                 "bio": ""
-            }, {
-                "name": "陳柏宇",
-                "titles": ["專題生"],
-                "image": "/assets/images/2d20c9f689a80314274c9629eddf912d.jpg",
-                "email": "chenllov@gmail.com",
-                "email_edu": "B11106117@mail.ntust.edu.tw",
-                "research": "",
-                "bio": ""
-            }, {
-                "name": "何岳樺",
-                "titles": ["專題生"],
-                "image": "/assets/images/4a358e59470d0945d583f6e0982fe80c.jpg",
-                "email": "b11006020@gmail.com",
-                "email_edu": "b11006020@mail.ntust.edu.tw",
-                "research": "",
-                "bio": ""
             }
         ]
     },
@@ -220,11 +236,11 @@
             "title": "首頁",
             "link": "/"
         }, {
-            "title": "研究領域",
-            "link": "/research/"
-        }, {
             "title": "指導教授",
             "link": "/pi/"
+        }, {
+            "title": "研究領域",
+            "link": "/research/"
         }, {
             "title": "其他成員",
             "link": "/members/"
@@ -329,6 +345,24 @@
         "equipment": {
             "title": "專業設備",
             "carousel": [
+                {
+                    "title": "U型震盪管密度儀",
+                    "image": "/assets/equipments/e1a150350c1a64ac413f4e99d246d491.png",
+                    "description": "U型震盪管密度儀(DMA 1001, Anton Paar, Austria, 可重複性標準差 ±0.00005 gcm3)量測溶液的密度。這台儀器可量測的溫度範圍為288.15-333.15 K，並且具有溫度控制單元，控制U型震盪管的溫度誤差為±0.02 K。部件由U型管、電磁鐵、以及傳感器組成。當有液體通入U型管中，藉由電磁鐵產生靜電作用力，使得U型管開始上下震盪，密度儀藉由已知物體的震盪頻率(水或是空氣)與未知物體的震盪頻率之間的數值換算，進一步得到未知物體的密度。"
+                },
+                {
+                    "title": "U型管示意圖",
+                    "image": "/assets/equipments/78517a8dbefecfcdd9b1276412c5be2e.png"
+                },
+                {
+                    "title": "旋轉填充床",
+                    "image": "/assets/equipments/095178e81c0b4929c36b38674dd05852.png",
+                    "description": "本實驗室使用旋轉填充床來進行二氧化碳化學吸收，探討其在超重力場下之質傳驅動力及阻力變化，計算氣液有效接觸面積及質傳係數等參數用以設計於化工製程，以求達到淨零碳排。"
+                },
+                {
+                    "title": "旋轉填充床",
+                    "image": "/assets/equipments/1fc6d0df9e3483014f8321cfb58de33b.png"
+                },
                 {
                     "image": "/assets/equipments/(1).jpg"
                 },
