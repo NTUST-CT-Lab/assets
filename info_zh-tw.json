@@ -245,6 +245,9 @@
             "title": "實驗室成員",
             "link": "/members/"
         }, {
+            "title": "專業設備",
+            "link": "/equipments/"
+        }, {
             "title": "研究發表",
             "link": "/publications/"
         }
@@ -341,23 +344,16 @@
         }
     },
     "research": {
-        "title": "研究領域",
-        "equipment": {
-            "title": "專業設備",
+        "title": "研究領域"
+    },
+    "equipment": {
+        "title": "專業設備",
+        "slideshow": {
+            "title": "實驗室設備",
             "carousel": [
-                {
-                    "title": "U型震盪管密度儀",
-                    "image": "/assets/equipments/e1a150350c1a64ac413f4e99d246d491.png",
-                    "description": "U型震盪管密度儀(DMA 1001, Anton Paar, Austria, 可重複性標準差 ±0.00005 gcm3)量測溶液的密度。這台儀器可量測的溫度範圍為288.15-333.15 K，並且具有溫度控制單元，控制U型震盪管的溫度誤差為±0.02 K。部件由U型管、電磁鐵、以及傳感器組成。當有液體通入U型管中，藉由電磁鐵產生靜電作用力，使得U型管開始上下震盪，密度儀藉由已知物體的震盪頻率(水或是空氣)與未知物體的震盪頻率之間的數值換算，進一步得到未知物體的密度。"
-                },
                 {
                     "title": "U型管示意圖",
                     "image": "/assets/equipments/78517a8dbefecfcdd9b1276412c5be2e.png"
-                },
-                {
-                    "title": "旋轉填充床",
-                    "image": "/assets/equipments/095178e81c0b4929c36b38674dd05852.png",
-                    "description": "本實驗室使用旋轉填充床來進行二氧化碳化學吸收，探討其在超重力場下之質傳驅動力及阻力變化，計算氣液有效接觸面積及質傳係數等參數用以設計於化工製程，以求達到淨零碳排。"
                 },
                 {
                     "title": "旋轉填充床",
@@ -425,6 +421,21 @@
                 },
                 {
                     "image": "/assets/equipments/(21).jpg"
+                }
+            ]
+        },
+        "introduction": {
+            "title": "設備介紹",
+            "list": [
+                {
+                    "title": "U型震盪管密度儀",
+                    "image": "/assets/equipments/e1a150350c1a64ac413f4e99d246d491.png",
+                    "description": "U型震盪管密度儀(DMA 1001, Anton Paar, Austria, 可重複性標準差 ±0.00005 gcm3)量測溶液的密度。這台儀器可量測的溫度範圍為288.15-333.15 K，並且具有溫度控制單元，控制U型震盪管的溫度誤差為±0.02 K。部件由U型管、電磁鐵、以及傳感器組成。當有液體通入U型管中，藉由電磁鐵產生靜電作用力，使得U型管開始上下震盪，密度儀藉由已知物體的震盪頻率(水或是空氣)與未知物體的震盪頻率之間的數值換算，進一步得到未知物體的密度。"
+                },
+                {
+                    "title": "旋轉填充床",
+                    "image": "/assets/equipments/095178e81c0b4929c36b38674dd05852.png",
+                    "description": "本實驗室使用旋轉填充床來進行二氧化碳化學吸收，探討其在超重力場下之質傳驅動力及阻力變化，計算氣液有效接觸面積及質傳係數等參數用以設計於化工製程，以求達到淨零碳排。"
                 }
             ]
         }
