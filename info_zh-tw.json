@@ -30,6 +30,7 @@
     },
     "lab": {
         "name": "碳技術實驗室",
+        "name_sublang": "Carbon Technology Lab",
         "phone": "(02)2733-3141#7605",
         "email": "",
         "location": "工程二館 E2-504",
@@ -63,7 +64,7 @@
             "email": "chenghsiu.yu@mail.ntust.edu.tw",
             "location": "工程二館 E2-611",
             "location_link": "https://maps.app.goo.gl/AAnKas88YL7VsKne8",
-            "google_scholar": "https://scholar.google.com/scholar?q=游承修",
+            "google_scholar": "https://scholar.google.com/citations?user=B6nyxakAAAAJ",
             "description": "游承修教授專研於化學工程製程技術，尤其專注於二氧化碳捕捉、熱物性質量測、相平衡研究與製程強化等領域。擁有豐富的學術研究與產業合作經驗，致力於開發永續且高效能的化工技術。"
         },
         "description": "致力於二氧化碳捕捉、熱物性質量測、相平衡模擬及製程強化的尖端研究",
@@ -255,24 +256,7 @@
     "home": {
         "introduction": {
             "title": "實驗室簡介",
-            "content": "國立臺灣科技大學化學工程所游承修教授的碳技術實驗室，專注於開發創新解決方案，應對當代化學工程的挑戰。我們的研究結合了實驗測量與理論模擬，以促進化工製程的效率、環保性及經濟效益。<br><br>我們致力於培養學生在化學工程領域的專業知識和解決問題的能力，並與國內外學術界和產業界保持密切合作，共同推動相關領域的技術發展。",
-            "carousel": [
-                {
-                    "title": "First slide label",
-                    "description": "Some representative placeholder content for the first slide.",
-                    "image": "/assets/pixabay/ai-generated-9025532.jpg"
-                },
-                {
-                    "title": "Second slide label",
-                    "description": "Some representative placeholder content for the second slide.",
-                    "image": "/assets/pixabay/analysis-3707159.jpg"
-                },
-                {
-                    "title": "Third slide label",
-                    "description": "Some representative placeholder content for the third slide.",
-                    "image": "/assets/pixabay/science-6566158.svg"
-                }
-            ]
+            "content": "本研究室專注於能源與化工領域之核心技術發展，研究主題涵蓋二氧化碳捕捉、熱物性質量測與模型建立、相平衡量測與模擬，以及製程強化技術。我們致力於結合理論研究與實驗量測，發展可應用於實際工業製程之操作方法與模型工具。研究室亦與產業界保持緊密合作，藉由共同研發與技術交流，推動低碳工業、永續製程與先進化工技術的落實。"
         },
         "announcement": {
             "title": "公告欄",
@@ -442,7 +426,7 @@
     },
     "pi": {
         "bio": {
-            "title": "主持教授",
+            "title": "指導教授",
             "education": {
                 "title": "學歷",
                 "list": [
@@ -520,6 +504,17 @@
             "tag": "分類標籤"
         },
         "list": [
+            {
+                "title": "Generalized Correlation for Effective Interfacial Area in Rotating Packed Beds",
+                "authors": ["Jia-Tean Ding", "Cheng-Hsiu Yu"],
+                "journal": "Industrial & Engineering Chemistry Research",
+                "month": 11,
+                "year": 2025,
+                "tags": [
+                    { "name": "二氧化碳捕捉", "color": "rgba(40, 167, 69, 0.8)" }
+                ],
+                "link": "https://pubs.acs.org/doi/10.1021/acs.iecr.5c03033"
+            },
             {
                 "title": "Solubility of Sodium Acetate in a Water+ Acetonitrile Binary Solvent System and the Mixture Density",
                 "authors": ["Tien-Yu Hu", "Cheng-Hsiu Yu"],
