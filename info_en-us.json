@@ -29,7 +29,8 @@
         }
     },
     "lab": {
-        "name": "碳技術實驗室",
+        "name": "Carbon Technology Lab",
+        "name_mainlang": "碳技術實驗室",
         "name_sublang": "Carbon Technology Lab",
         "phone": "(02)2733-3141#7605",
         "email": "",
@@ -708,8 +709,7 @@
     },
     "footer": {
         "contact": {
-            "title": "Contact Us",
-            "email": ""
+            "title": "Contact Us"
         },
         "social": {
             "title": "Professor Yu, Cheng-hsiu Research Team",

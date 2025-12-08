@@ -30,6 +30,7 @@
     },
     "lab": {
         "name": "碳技術實驗室",
+        "name_mainlang": "碳技術實驗室",
         "name_sublang": "Carbon Technology Lab",
         "phone": "(02)2733-3141#7605",
         "email": "",
@@ -708,15 +709,14 @@
     },
     "footer": {
         "contact": {
-            "title": "聯絡我們",
-            "email": ""
+            "title": "聯絡我們"
         },
         "social": {
             "title": "游承修教授研究團隊",
             "github": "https://github.com/NTUST-CT-Lab"
         },
         "links": {
-            "title": "相關連結",
+            "title": "快速連結",
             "links": [
                 {
                     "name": "國立臺灣科技大學",
