@@ -252,6 +252,15 @@
         }
     ],
     "home": {
+        "hero": {
+            "carousel": [
+                {
+                    "title": "實驗室活動",
+                    "description": "我們定期舉辦各種學術交流活動，包括研討會、工作坊和實驗室開放日，歡迎大家參加！",
+                    "image": "/assets/activities/45df9cd1f11579aac2d9455d8da83df2.jpg"
+                }
+            ]
+        },
         "introduction": {
             "title": "實驗室簡介",
             "content": "本研究室專注於能源與化工領域之核心技術發展，研究主題涵蓋二氧化碳捕捉、熱物性質量測與模型建立、相平衡量測與模擬，以及製程強化技術。我們致力於結合理論研究與實驗量測，發展可應用於實際工業製程之操作方法與模型工具。研究室亦與產業界保持緊密合作，藉由共同研發與技術交流，推動低碳工業、永續製程與先進化工技術的落實。"
@@ -293,6 +302,18 @@
                     "title": "實驗室活動",
                     "description": "我們定期舉辦各種學術交流活動，包括研討會、工作坊和實驗室開放日，歡迎大家參加！",
                     "image": "/assets/activities/45df9cd1f11579aac2d9455d8da83df2.jpg"
+                },
+                {
+                    "image": "/assets/activities/87941de1c659b5048575396a93a47e26.jpg"
+                },
+                {
+                    "image": "/assets/activities/fa6a5e325e5617aa162fe3249346cdb9.jpg"
+                },
+                {
+                    "image": "/assets/activities/27e40471742acde8f7295b1c5c14100d.jpg"
+                },
+                {
+                    "image": "/assets/activities/f43944e6528ead0c36f55003c53a094a.jpg"
                 }
             ]
         }

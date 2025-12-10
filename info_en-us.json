@@ -252,6 +252,15 @@
         }
     ],
     "home": {
+        "hero": {
+            "carousel": [
+                {
+                    "title": "Activities",
+                    "description": "We regularly organize various academic exchange activities, including seminars, workshops, and laboratory open days. Everyone is welcome to participate!",
+                    "image": "/assets/activities/45df9cd1f11579aac2d9455d8da83df2.jpg"
+                }
+            ]
+        },
         "introduction": {
             "title": "About us",
             "content": "Our laboratory focuses on the development of core technologies in the energy and chemical engineering fields. Our research includes carbon dioxide capture, thermophysical property measurement, model building, phase equilibrium measurement and simulation, and process intensification techniques. We combine theoretical research with experimental measurements to develop operational methods and modeling tools applicable to industrial processes. Our laboratory also maintains close collaboration with industry, jointly developing and exchanging technologies to promote the implementation of low-carbon industries, sustainable processes, and advanced chemical technologies."
@@ -293,6 +302,18 @@
                     "title": "Activities",
                     "description": "We regularly organize various academic exchange activities, including seminars, workshops, and laboratory open days. Everyone is welcome to participate!",
                     "image": "/assets/activities/45df9cd1f11579aac2d9455d8da83df2.jpg"
+                },
+                {
+                    "image": "/assets/activities/87941de1c659b5048575396a93a47e26.jpg"
+                },
+                {
+                    "image": "/assets/activities/fa6a5e325e5617aa162fe3249346cdb9.jpg"
+                },
+                {
+                    "image": "/assets/activities/27e40471742acde8f7295b1c5c14100d.jpg"
+                },
+                {
+                    "image": "/assets/activities/f43944e6528ead0c36f55003c53a094a.jpg"
                 }
             ]
         }
