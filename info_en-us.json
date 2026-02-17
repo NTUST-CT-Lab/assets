@@ -1,743 +1,172 @@
 {
-    "title": {
-        "format": "%s｜%l",
-        "subformat": "%n－%t",
-        "trimming":["｜", "－", "|", "-", " "]
-    },
+    "copyright": "© year lab - company_department",
     "datetime": {
         "default_timezone": 0,
+        "format": {
+            "day": "%d",
+            "hour": "%H",
+            "microsecond": "%f",
+            "minute": "%M",
+            "month": "%m",
+            "month_day": "%m %d",
+            "second": "%S",
+            "year": "%Y",
+            "year_month": "%Y %m",
+            "year_month_day": "%m %d, %Y"
+        },
         "parser": {
-            "year": "%YEAR%",
-            "month": "%MONTH%",
             "day": "%DAY%",
             "hour": "%HOUR%",
             "minute": "%MINUTE%",
+            "month": "%MONTH%",
             "second": "%SECOND%",
-            "timezone": "%TIMEZONE%+0"
-        },
-        "format": {
-            "year": "%Y",
-            "month": "%m",
-            "day": "%d",
-            "hour": "%H",
-            "minute": "%M",
-            "second": "%S",
-            "microsecond": "%f",
-            "year_month": "%Y %m",
-            "month_day": "%m %d",
-            "year_month_day": "%m %d, %Y"
-        }
-    },
-    "lab": {
-        "name": "Carbon Technology Lab",
-        "name_mainlang": "碳技術實驗室",
-        "name_sublang": "Carbon Technology Lab",
-        "phone": "(02)2733-3141#7605",
-        "email": "",
-        "location": "ChE E2-504",
-        "access_time": "Mon-Fri 09:00-17:00",
-        "university": {
-            "name": " National Taiwan University of Science and Technology",
-            "logo": "/assets/images/logo.png",
-            "website": "https://www.ntust.edu.tw",
-            "address": "No. 43, Sec. 4, Keelung Rd., Da'an Dist., Taipei City 106335, Taiwan (R.O.C.)",
-            "phone": "02-1234-5678"
-        },
-        "college": {
-            "name": "College of Engineering",
-            "website": "https://www.ntust.edu.tw/college/engineering"
-        },
-        "department": {
-            "name": "Department of Chemical Engineering",
-            "website": "https://www.ntust.edu.tw/department/chemical-engineering"
-        },
-        "college_department": "National Taiwan University of Science and Technology Department of Chemical Engineering",
-        "pi": {
-            "name": "Yu, Cheng-hsiu",
-            "title": "Assistant Professor",
-            "name_title": "Yu, Cheng-hsiu Assistant Professor",
-            "company": "National Taiwan University of Science and Technology",
-            "department": "Department of Chemical Engineering",
-            "company_department": "National Taiwan University of Science and Technology Department of Chemical Engineering",
-            "team": "Professor Yu, Cheng-hsiu Research Team",
-            "image": "/assets/images/c22f0676228e2a561f72724a53d418b7.png",
-            "phone": "(02)2737-6614",
-            "email": "chenghsiu.yu@mail.ntust.edu.tw",
-            "location": "ChE E2-611",
-            "location_link": "https://maps.app.goo.gl/AAnKas88YL7VsKne8",
-            "google_scholar": "https://scholar.google.com/citations?user=B6nyxakAAAAJ",
-            "description": "Our laboratory focuses on the development of core technologies in the energy and chemical engineering fields. Our research includes carbon dioxide capture, thermophysical property measurement, model building, phase equilibrium measurement and simulation, and process intensification techniques. We combine theoretical research with experimental measurements to develop operational methods and modeling tools applicable to industrial processes. Our laboratory also maintains close collaboration with industry, jointly developing and exchanging technologies to promote the implementation of low-carbon industries, sustainable processes, and advanced chemical technologies."
-        },
-        "description": "Dedicated to cutting-edge research in carbon dioxide capture, thermophysical property measurement, phase equilibrium simulation, and process intensification.",
-        "members": [
-            {
-                "name": "黃春穆",
-                "titles": ["M2"],
-                "image": "/assets/images/1dfc06983b7bba912fd102c2badf9f6d.jpeg",
-                "email": "murry901028@gmail.com",
-                "email_edu": "M11306018@mail.ntust.edu.tw",
-                "research": "1.乳酸乙酯動力學模型建立<br />2.旋轉填充床產乳酸乙酯之反應蒸餾",
-                "bio": ""
-            }, {
-                "name": "周國鼎",
-                "titles": ["M2"],
-                "image": "/assets/images/eb9349b693bea4715ed9e4574431890e.jpeg",
-                "email": "a37939922@gmail.com",
-                "email_edu": "M11306114@mail.ntust.edu.tw",
-                "research": "旋轉填充床吸收碳捕捉技術與質傳性能分析",
-                "bio": ""
-            }, {
-                "name": "蕭于紘",
-                "titles": ["M2"],
-                "image": "/assets/images/e8ed04c12674693952c107c5daf007bb.jpg",
-                "email": "chris901114@gmail.com",
-                "email_edu": "M11306003@mail.ntust.edu.tw",
-                "research": "鑑定NaOAc於H2O-ACN混合溶劑之晶型，探討不同溶劑組成比例、系統溫度等變因對NaOAc晶型的影響",
-                "bio": ""
-            }, {
-                "name": "沈謀雄",
-                "titles": ["M2"],
-                "image": "/assets/images/6759a00dce36f47955202537ef57045e.jpeg",
-                "email": "joesephm49@gmail.com",
-                "email_edu": "M11306804@mail.ntust.edu.tw",
-                "research": "Effects of Viscosity on Mass Transfer Coefficient in a Rotating Packed Bed",
-                "bio": ""
-            }, {
-                "name": "林柏陞",
-                "titles": ["M2"],
-                "image": "/assets/images/062705272e19e365ee400ffa8b314c2e.png",
-                "email": "ascz0961184828@gmail.com",
-                "email_edu": "M11306041@mail.ntust.edu.tw",
-                "research": "強鹼溶液於超重力旋轉床進行碳捕捉之模擬",
-                "bio": ""
-            }, {
-                "name": "黃凱稘",
-                "titles": ["M1"],
-                "image": "/assets/images/6b9745b80e0a70f7300e51940ec34d59.jpeg",
-                "email": "kelly98099@gmail.com",
-                "email_edu": "M11406160@mail.ntust.edu.tw",
-                "research": "",
-                "bio": ""
-            }, {
-                "name": "李柔靚",
-                "titles": ["M1"],
-                "image": "/assets/images/4eaef7478509a35cad9c5bcf94cf743e.jpeg",
-                "email": "mirojing22@gmail.com",
-                "email_edu": "M11406121@mail.ntust.edu.tw",
-                "research": "MEA 溶劑的再生",
-                "bio": ""
-            }, {
-                "name": "林芷誼",
-                "titles": ["M1"],
-                "image": "/assets/images/3dbe79e6dfabb25e46ba2d0fb130cf4b.jpg",
-                "email": "chih.yi.0918@gmail.com",
-                "email_edu": "B11006117@mail.ntust.edu.tw",
-                "research": "相平衡不確定性對蒸餾製程的影響",
-                "bio": ""
-            }, {
-                "name": "黃筱媛",
-                "titles": ["M1"],
-                "image": "/assets/images/80fa93e8de245c5d218615f88c9f5155.jpg",
-                "email": "huangsiaoyuan@gmail.com",
-                "email_edu": "M11406009@mail.ntust.edu.tw",
-                "research": "",
-                "bio": ""
-            }, {
-                "name": "何岳樺",
-                "titles": ["M1"],
-                "image": "/assets/images/4a358e59470d0945d583f6e0982fe80c.jpg",
-                "email": "M11453030@gmail.com",
-                "email_edu": "M11453030@mail.ntust.edu.tw",
-                "research": "",
-                "bio": ""
-            }, {
-                "name": "陳柏宇",
-                "titles": ["Undergraduate"],
-                "image": "/assets/images/2d20c9f689a80314274c9629eddf912d.jpg",
-                "email": "chenllov@gmail.com",
-                "email_edu": "B11106117@mail.ntust.edu.tw",
-                "research": "",
-                "bio": ""
-            }, {
-                "name": "林澄科",
-                "titles": ["Undergraduate"],
-                "image": "/assets/images/0e8c7799f49369243f826668dbb83097.jpg",
-                "email": "9431319@gmail.com",
-                "email_edu": "b11206023@mail.ntust.edu.tw",
-                "research": "",
-                "bio": ""
-            }, {
-                "name": "童中志",
-                "titles": ["Undergraduate"],
-                "image": "/assets/images/f492994aa5e5c57336e72b59119002cb.jpg",
-                "email": "tony091817@gmail.com",
-                "email_edu": "b11206117@mail.ntust.edu.tw",
-                "research": "",
-                "bio": ""
-            }, {
-                "name": "黃光峻",
-                "titles": ["Graduated"],
-                "image": "/assets/images/94cae135371bf637a8023f9aad3923a8.jpg",
-                "email": "11206qazwsxedc@gmail.com",
-                "email_edu": "M11206050@mail.ntust.edu.tw",
-                "research": "Blade & baffles RPB模擬及Hydraulic 分析",
-                "bio": ""
-            }, {
-                "name": "羅玥騏",
-                "titles": ["Graduated"],
-                "image": "/assets/images/e46204931e33ecfbebd47f7796c8c312.jpeg",
-                "email": "luo5718805@gmail.com",
-                "email_edu": "M11206113@mail.ntust.edu.tw",
-                "research": "使用Aspen Plus進行二氧化碳捕捉模擬操作以及質量傳遞相關研究",
-                "bio": ""
-            }, {
-                "name": "賴靖方",
-                "titles": ["Graduated"],
-                "image": "/assets/images/244b52c6d270ae7fc5825536556aaa34.jpg",
-                "email": "jingfang0221@gmail.com",
-                "email_edu": "M11206142@mail.ntust.edu.tw",
-                "research": "探討旋轉填充床中CO2化學吸收之溫度分佈",
-                "bio": ""
-            }, {
-                "name": "陳佳恬",
-                "titles": ["Graduated"],
-                "image": "/assets/images/cf72eb71607773a9764bf042c89928be.jpeg",
-                "email": "Jiatean@gmail.com",
-                "email_edu": "M11206804@mail.ntust.edu.tw",
-                "research": "旋轉填充床中有效接觸面積之經驗式建立",
-                "bio": ""
-            }, {
-                "name": "吳櫂珅",
-                "titles": ["Graduated"],
-                "image": "/assets/images/66473c7fc6e373ec711f7349d7553a79.jpg",
-                "email": "sean890728@gmail.com",
-                "email_edu": "M11206004@mail.ntust.edu.tw",
-                "research": "平衡板及質傳速率模型對旋轉填充床中之二氧化碳吸收劑再生模擬與分析",
-                "bio": ""
-            }, {
-                "name": "陸瑋倫",
-                "titles": ["Graduated"],
-                "image": "/assets/images/a79cc22adcd05494957317082f2cb8ec.jpeg",
-                "email": "bboyallen8645@gmail.com",
-                "email_edu": "m11106003@mail.ntust.edu.tw",
-                "research": "變壓吸附捕碳之模擬",
-                "bio": ""
-            }, {
-                "name": "胡淀瑜",
-                "titles": ["Graduated"],
-                "image": "/assets/images/a48f4198339d3a89fca1eb901e77faff.jpg",
-                "email": "qq465047@gmail.com.tw",
-                "email_edu": "M11106047@mail.ntust.edu.tw",
-                "research": "鹽溶液熱力學及輸送性質",
-                "bio": ""
-            }
-        ]
-    },
-    "nav": [
-        {
-            "title": "Home",
-            "link": "/"
-        }, {
-            "title": "Professor",
-            "link": "/pi/"
-        }, {
-            "title": "Members",
-            "link": "/members/"
-        }, {
-            "title": "Equipments",
-            "link": "/equipments/"
-        }, {
-            "title": "Publication",
-            "link": "/publications/"
-        }
-    ],
-    "home": {
-        "hero": {
-            "carousel": [
-                {
-                    "title": "Activities",
-                    "description": "We regularly organize various academic exchange activities, including seminars, workshops, and laboratory open days. Everyone is welcome to participate!",
-                    "image": "/assets/activities/45df9cd1f11579aac2d9455d8da83df2.jpg"
-                }
-            ]
-        },
-        "introduction": {
-            "title": "About us",
-            "content": "Our laboratory focuses on the development of core technologies in the energy and chemical engineering fields. Our research includes carbon dioxide capture, thermophysical property measurement, model building, phase equilibrium measurement and simulation, and process intensification techniques. We combine theoretical research with experimental measurements to develop operational methods and modeling tools applicable to industrial processes. Our laboratory also maintains close collaboration with industry, jointly developing and exchanging technologies to promote the implementation of low-carbon industries, sustainable processes, and advanced chemical technologies."
-        },
-        "research": {
-            "title": "Research Areas",
-            "list": [
-                {
-                    "icon": "eco",
-                    "icon_color": "rgba(40, 167, 69, 0.8)",
-                    "title": "Carbon Dioxide Capture",
-                    "description": "Developing high-performance carbon dioxide adsorption materials and advanced capture technologies to reduce greenhouse gas emissions and address climate change challenges.",
-                    "tags": ["Carbon Capture", "Greenhouse Gases", "Sustainable Development"]
-                }, {
-                    "icon": "whatshot",
-                    "icon_color": "rgba(220, 53, 69, 0.8)",
-                    "title": "Thermophysical Property Measurement and Model Development",
-                    "description": "Accurately measuring the thermophysical properties of chemical substances and developing predictive models to provide key parameters for chemical engineering design and simulation.",
-                    "tags": ["Thermodynamics", "Model Prediction", "Property Database"]
-                }, {
-                    "icon": "balance",
-                    "icon_color": "rgba(0, 123, 255, 0.8)",
-                    "title": "Phase Equilibrium Measurement and Simulation",
-                    "description": "Studying the phase behavior of mixture systems through precise measurement and theoretical simulation to optimize separation processes and process design.",
-                    "tags": ["Phase Equilibrium", "Thermodynamic Models", "Separation Technology"]
-                }, {
-                    "icon": "settings_suggest",
-                    "icon_color": "rgba(255, 193, 7, 0.8)",
-                    "title": "Process Intensification and Scale-up Design",
-                    "description": "Developing innovative technologies to optimize chemical processes, improve efficiency and reduce energy consumption, and studying scale-up strategies from laboratory to industrial scale.",
-                    "tags": ["Process Intensification", "Energy Efficiency", "Scale-up Design"]
-                }
-            ]
-        },
-        "activities": {
-            "title": "Highlights of the event",
-            "carousel": [
-                {
-                    "title": "Activities",
-                    "description": "We regularly organize various academic exchange activities, including seminars, workshops, and laboratory open days. Everyone is welcome to participate!",
-                    "image": "/assets/activities/45df9cd1f11579aac2d9455d8da83df2.jpg"
-                },
-                {
-                    "image": "/assets/activities/87941de1c659b5048575396a93a47e26.jpg"
-                },
-                {
-                    "image": "/assets/activities/fa6a5e325e5617aa162fe3249346cdb9.jpg"
-                },
-                {
-                    "image": "/assets/activities/27e40471742acde8f7295b1c5c14100d.jpg"
-                },
-                {
-                    "image": "/assets/activities/f43944e6528ead0c36f55003c53a094a.jpg"
-                }
-            ]
+            "timezone": "%TIMEZONE%+0",
+            "year": "%YEAR%"
         }
     },
     "equipment": {
-        "title": "Equipment",
-        "slideshow": {
-            "title": "Equipment",
-            "carousel": [
-                {
-                    "title": "U-shaped tube schematic diagram",
-                    "image": "/assets/equipments/78517a8dbefecfcdd9b1276412c5be2e.png"
-                },
-                {
-                    "title": "Rotating packed bed",
-                    "image": "/assets/equipments/1fc6d0df9e3483014f8321cfb58de33b.png"
-                },
-                {
-                    "image": "/assets/equipments/(1).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(2).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(3).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(4).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(5).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(6).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(7).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(8).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(9).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(10).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(11).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(12).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(13).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(14).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(15).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(16).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(17).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(18).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(19).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(20).jpg"
-                },
-                {
-                    "image": "/assets/equipments/(21).jpg"
-                }
-            ]
-        },
         "introduction": {
-            "title": "Equipment Introduction",
             "list": [
                 {
-                    "title": "U-tube oscillating densitometer",
+                    "description": "A U-tube oscillating density meter (DMA 1001, Anton Paar, Austria, repeatability standard deviation ±0.00005 gcm³) measures the density of a solution. This instrument can measure temperatures from 288.15 to 333.15 K and has a temperature control unit that maintains the temperature error of the U-tube within ±0.02 K. The components consist of a U-tube, an electromagnet, and a sensor. When liquid is introduced into the U-tube, the electromagnet generates an electrostatic force, causing the U-tube to oscillate up and down. The density meter calculates the density of the unknown substance by converting the oscillation frequency between the known oscillation frequency (water or air) and the unknown oscillation frequency.",
                     "image": "/assets/equipments/e1a150350c1a64ac413f4e99d246d491.png",
-                    "description": "A U-tube oscillating density meter (DMA 1001, Anton Paar, Austria, repeatability standard deviation ±0.00005 gcm³) measures the density of a solution. This instrument can measure temperatures from 288.15 to 333.15 K and has a temperature control unit that maintains the temperature error of the U-tube within ±0.02 K. The components consist of a U-tube, an electromagnet, and a sensor. When liquid is introduced into the U-tube, the electromagnet generates an electrostatic force, causing the U-tube to oscillate up and down. The density meter calculates the density of the unknown substance by converting the oscillation frequency between the known oscillation frequency (water or air) and the unknown oscillation frequency."
+                    "title": "U-tube oscillating densitometer"
                 },
                 {
-                    "title": "Rotating packed bed",
+                    "description": "This laboratory uses a rotating packed bed for the chemical absorption of carbon dioxide, exploring the changes in mass transfer driving force and resistance under a hypergravity field, and calculating parameters such as the effective gas-liquid contact area and mass transfer coefficient to design for use in chemical processes in order to achieve net-zero carbon emissions.",
                     "image": "/assets/equipments/095178e81c0b4929c36b38674dd05852.png",
-                    "description": "This laboratory uses a rotating packed bed for the chemical absorption of carbon dioxide, exploring the changes in mass transfer driving force and resistance under a hypergravity field, and calculating parameters such as the effective gas-liquid contact area and mass transfer coefficient to design for use in chemical processes in order to achieve net-zero carbon emissions."
+                    "title": "Rotating packed bed"
                 }
-            ]
-        }
-    },
-    "pi": {
-        "bio": {
-            "title": "指導教授",
-            "education": {
-                "title": "Experience",
-                "list": [
-                    {
-                        "university": "National Tsing Hua University",
-                        "field": "Department of Chemical Engineering",
-                        "degree": "Doctoral degree",
-                        "field_degree": "PhD in Chemical Engineering"
-                    },
-                    {
-                        "university": "Chung Yuan Christian University",
-                        "field": "Department of Chemical Engineering",
-                        "degree": "Master's degree",
-                        "field_degree": "Master of Chemical Engineering"
-                    },
-                    {
-                        "university": "Chung Yuan Christian University",
-                        "field": "Department of Chemical Engineering",
-                        "degree": "Bachelor degree",
-                        "field_degree": "Bachelor of Chemical Engineering"
-                    }
-                ]
-            },
-            "work": {
-                "title": "Experience",
-                "list": [
-                    {
-                        "company": "National Taiwan University of Science and Technology ",
-                        "department": "Department of Chemical Engineering",
-                        "position": "Assistant professor",
-                        "duration": "2022/08 - Now"
-                    },
-                    {
-                        "company": "China Steel Corporation(CSC)",
-                        "department": "T72",
-                        "position": "Engineer",
-                        "duration": "2021/2 - 2022/7"
-                    },
-                    {
-                        "company": "Texas Tech University",
-                        "department": "Chemical Engineering",
-                        "position": "Postdoctoral Researcher",
-                        "duration": "2019/7 - 2021/1"
-                    },
-                    {
-                        "company": "RECIPROCAL PHI DESIGN INC.",
-                        "department": "",
-                        "position": "Process Development Engineer",
-                        "duration": "2017/12 - 2019/5"
-                    },
-                    {
-                        "company": "Texas Tech University",
-                        "department": "Chemical Engineering",
-                        "position": "Postdoctoral Researcher",
-                        "duration": "2016/10 - 2017/10"
-                    }
-                ]
-            }
-        }
-    },
-    "members": {
-        "title": "Members",
-        "filter": {
-            "all": "All"
-        }
-    },
-    "publications": {
-        "title": "Publications",
-        "filter": {
-            "keyword": "Keyword",
-            "placeholder": "Search publications...",
-            "all": "All",
-            "year": "Year",
-            "tag": "Category"
+            ],
+            "title": "Equipment Introduction"
         },
-        "list": [
-            {
-                "title": "Generalized Correlation for Effective Interfacial Area in Rotating Packed Beds",
-                "authors": ["Jia-Tean Ding", "Cheng-Hsiu Yu"],
-                "journal": "Industrial & Engineering Chemistry Research",
-                "month": 11,
-                "year": 2025,
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://pubs.acs.org/doi/10.1021/acs.iecr.5c03033"
-            },
-            {
-                "title": "Solubility of Sodium Acetate in a Water+ Acetonitrile Binary Solvent System and the Mixture Density",
-                "authors": ["Tien-Yu Hu", "Cheng-Hsiu Yu"],
-                "journal": "Journal of Chemical & Engineering Data",
-                "month": 2,
-                "year": 2025,
-                "volume": 70,
-                "pages": "1459-1468",
-                "tags": [
-                    {"name": "Thermal property quality measurement and model establishment", "color": "rgba(255, 193, 7, 0.8)"}
-                ],
-                "link": "https://pubs.acs.org/doi/full/10.1021/acs.jced.4c00563",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:8k81kl-MbHgC"
-            },
-            {
-                "title": "Simulation of Triglyceride Purification from Crude Palm Oil using Single Solvent Continuous Counter Current Extraction",
-                "authors": [
-                    "Amani Salsabil Husodo",
-                    "Cheng Hsiu Yu",
-                    "Setiyo Gunawan"
-                ],
-                "journal": "Journal of Advanced Research in Fluid Mechanics and Thermal Sciences",
-                "month": 1,
-                "year": 2025,
-                "volume": 125,
-                "pages": "54-65",
-                "tags": [
-                    {"name": "Process enhancement, improvement and scale-up design", "color": "rgba(220, 53, 69, 0.8)"}
-                ],
-                "link": "https://scholar.its.ac.id/en/publications/simulation-of-triglyceride-purification-from-crude-palm-oil-using",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:0EnyYjriUFMC"
-            },
-            {
-                "title": "Modeling of CO<sub>2</sub> chemical absorption using alkanolamine solutions in rotating packed beds",
-                "authors": ["Yueh-Chi Lo", "Yu-Shao Chen", "Cheng-Hsiu Yu"],
-                "journal": "Available at SSRN 5071426",
-                "month": 12,
-                "year": 2024,
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5071426",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:5nxA0vEk-isC"
-            },
-            {
-                "title": "A review of CO<sub>2</sub> capture by absorption and adsorption",
-                "authors": ["Cheng-Hsiu Yu", "Chih-Hung Huang", "Chung-Sung Tan"],
-                "journal": "Aerosol and air quality research",
-                "month": 11,
-                "year": 2024,
-                "volume": 12,
-                "pages": "745-769",
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://link.springer.com/article/10.4209/aaqr.2012.05.0132",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:d1gkVwhDpl0C"
-            },
-            {
-                "title": "Process Modeling of CO<sub>2</sub> Absorption with Monoethanolamine Aqueous Solutions Using Rotating Packed Beds",
-                "authors": [
-                    "Cheng-Hsiu Yu",
-                    "Yu-Jeng Lin",
-                    "David Shan-Hill Wong",
-                    "Chau-Chyun Chen"
-                ],
-                "journal": "Industrial & Engineering Chemistry Research",
-                "month": 2,
-                "year": 2022,
-                "volume": 64,
-                "pages": "12142-12152",
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://pubs.acs.org/doi/full/10.1021/acs.iecr.1c04323",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:UebtZRa9Y70C"
-            },
-            {
-                "title": "Modeling fluid phase equilibria of carbon dioxide-methanol binary system",
-                "authors": [
-                    "Cheng-Hsiu Yu",
-                    "Yu-Jeng Lin",
-                    "David Shan-Hill Wong",
-                    "Juan Carles Bruno",
-                    "Chau-Chyun Chen"
-                ],
-                "journal": "Fluid Phase Equilibria",
-                "month": 2,
-                "year": 2021,
-                "volume": 529,
-                "tags": [
-                    {"name": "Phase equilibrium measurement and simulation", "color": "rgba(23, 162, 184, 0.8)"}
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S0378381220304155",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:ufrVoPGSRksC"
-            },
-            {
-                "title": "Thermodynamic Modeling of Aqueous and Mixed Solvent Electrolyte Systems",
-                "authors": [
-                    "Benjamin Caudle",
-                    "Toni E Kirkes",
-                    "Cheng‐Hsiu Yu",
-                    "Chau‐Chyun Chen"
-                ],
-                "journal": "Chemical Engineering in the Pharmaceutical Industry: Active Pharmaceutical Ingredients",
-                "month": 3,
-                "year": 2019,
-                "pages": "493-504",
-                "tags": [
-                    {"name": "Thermal property quality measurement and model establishment", "color": "rgba(255, 193, 7, 0.8)"}
-                ],
-                "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119600800.ch21",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:Se3iqnhoufwC"
-            },
-            {
-                "title": "Effects of process configurations for combination of rotating packed bed and packed bed on CO<sub>2</sub> capture",
-                "authors": [
-                    "Cheng-Hsiu Yu",
-                    "Ming-Tsz Chen",
-                    "Hao Chen",
-                    "Chung-Sung Tan"
-                ],
-                "journal": "Applied Energy",
-                "month": 8,
-                "year": 2016,
-                "volume": 175,
-                "pages": "269-276",
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S0306261916306389",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:Tyk-4Ss8FVUC"
-            },
-            {
-                "title": "Modelling and design of carbon dioxide absorption in rotating packed bed and packed column",
-                "authors": [
-                    "Matt Thiels",
-                    "David SH Wong",
-                    "Cheng-Hsiu Yu",
-                    "Jia-Lin Kang",
-                    "Shi Shang Jang",
-                    "Chung-San Tan"
-                ],
-                "journal": "IFAC-PapersOnLine",
-                "month": 1,
-                "year": 2016,
-                "volume": 49,
-                "pages": "895-900",
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S2405896316305109",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:W7OEmFMy1HYC"
-            },
-            {
-                "title": "Effects of inorganic salts on absorption of CO<sub>2</sub> and O<sub>2</sub> for absorbents containing diethylenetriamine and piperazine",
-                "authors": ["Cheng-Hsiu Yu", "Yu-Xiao Lin", "Chung-Sung Tan"],
-                "journal": "International Journal of Greenhouse Gas Control",
-                "month": 11,
-                "year": 2014,
-                "volume": 30,
-                "pages": "118-124",
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S1750583614002539",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:IjCSPb-OGe4C"
-            },
-            {
-                "title": "CO<sub>2</sub> capture by aqueous solution containing mixed alkanolamines and diethylene glycol in a rotating packed bed",
-                "authors": ["Cheng-Hsiu Yu", "Chung-Sung Tan"],
-                "journal": "Energy Procedia",
-                "month": 1,
-                "year": 2014,
-                "volume": 63,
-                "pages": "758-764",
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S1876610214018992",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:zYLM7Y9cAGgC"
-            },
-            {
-                "title": "CO<sub>2</sub> capture by piperazine mixed with non-aqueous solvent diethylene glycol in a rotating packed bed",
-                "authors": ["Cheng-Hsiu Yu", "Tsai-Wei Wu", "Chung-Sung Tan"],
-                "journal": "International Journal of Greenhouse Gas Control",
-                "month": 11,
-                "year": 2013,
-                "volume": 19,
-                "pages": "503-509",
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S175058361200076X",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:qjMakFHDy7sC"
-            },
-            {
-                "title": "Mixed alkanolamines with low regeneration energy for CO<sub>2</sub> capture in a rotating packed bed",
-                "authors": ["Cheng-Hsiu Yu", "Chung-Sung Tan"],
-                "journal": "Energy Procedia",
-                "month": 1,
-                "year": 2013,
-                "volume": 37,
-                "pages": "455-460",
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S1876610213001410",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:UeHWp8X0CEIC"
-            },
-            {
-                "title": "CO<sub>2</sub> capture by alkanolamine solutions containing diethylenetriamine and piperazine in a rotating packed bed",
-                "authors": ["Cheng-Hsiu Yu", "Hsu-Hsiang Cheng", "Chung-Sung Tan"],
-                "journal": "International Journal of Greenhouse Gas Control",
-                "month": 7,
-                "year": 2012,
-                "volume": 9,
-                "pages": "136-147",
-                "tags": [
-                    {"name": "Carbon dioxide capture", "color": "rgba(40, 167, 69, 0.8)"}
-                ],
-                "link": "https://www.sciencedirect.com/science/article/pii/S175058361200076X",
-                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:2osOgNQ5qMEC"
-            }
-        ]
+        "slideshow": {
+            "carousel": [
+                {
+                    "description": "",
+                    "image": "/assets/equipments/78517a8dbefecfcdd9b1276412c5be2e.png",
+                    "title": "U-shaped tube schematic diagram"
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/1fc6d0df9e3483014f8321cfb58de33b.png",
+                    "title": "Rotating packed bed"
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(1).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(2).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(3).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(4).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(5).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(6).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(7).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(8).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(9).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(10).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(11).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(12).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(13).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(14).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(15).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(16).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(17).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(18).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(19).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(20).jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/equipments/(21).jpg",
+                    "title": ""
+                }
+            ],
+            "title": "Equipment"
+        },
+        "title": "Equipment"
     },
     "footer": {
         "contact": {
             "title": "Contact Us"
         },
-        "social": {
-            "title": "Professor Yu, Cheng-hsiu Research Team",
-            "github": "https://github.com/NTUST-CT-Lab"
-        },
         "links": {
-            "title": "Links",
             "links": [
                 {
                     "name": "National Taiwan University of Science and Technology",
@@ -747,8 +176,796 @@
                     "name": "Department of Chemical Engineering",
                     "url": "https://www.ntust.edu.tw/department/chemical-engineering"
                 }
-            ]
+            ],
+            "title": "Links"
+        },
+        "social": {
+            "github": "https://github.com/NTUST-CT-Lab",
+            "title": "Professor Yu, Cheng-hsiu Research Team"
         }
     },
-    "copyright": "© year lab - company_department"
+    "home": {
+        "activities": {
+            "carousel": [
+                {
+                    "description": "We regularly organize various academic exchange activities, including seminars, workshops, and laboratory open days. Everyone is welcome to participate!",
+                    "image": "/assets/activities/45df9cd1f11579aac2d9455d8da83df2.jpg",
+                    "title": "Activities"
+                },
+                {
+                    "description": "",
+                    "image": "/assets/activities/87941de1c659b5048575396a93a47e26.jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/activities/fa6a5e325e5617aa162fe3249346cdb9.jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/activities/27e40471742acde8f7295b1c5c14100d.jpg",
+                    "title": ""
+                },
+                {
+                    "description": "",
+                    "image": "/assets/activities/f43944e6528ead0c36f55003c53a094a.jpg",
+                    "title": ""
+                }
+            ],
+            "title": "Highlights of the event"
+        },
+        "hero": {
+            "carousel": [
+                {
+                    "description": "We regularly organize various academic exchange activities, including seminars, workshops, and laboratory open days. Everyone is welcome to participate!",
+                    "image": "/assets/activities/45df9cd1f11579aac2d9455d8da83df2.jpg",
+                    "title": "Activities"
+                }
+            ]
+        },
+        "introduction": {
+            "content": "Our laboratory focuses on the development of core technologies in the energy and chemical engineering fields. Our research includes carbon dioxide capture, thermophysical property measurement, model building, phase equilibrium measurement and simulation, and process intensification techniques. We combine theoretical research with experimental measurements to develop operational methods and modeling tools applicable to industrial processes. Our laboratory also maintains close collaboration with industry, jointly developing and exchanging technologies to promote the implementation of low-carbon industries, sustainable processes, and advanced chemical technologies.",
+            "title": "About us"
+        },
+        "research": {
+            "list": [
+                {
+                    "description": "Developing high-performance carbon dioxide adsorption materials and advanced capture technologies to reduce greenhouse gas emissions and address climate change challenges.",
+                    "icon": "eco",
+                    "icon_color": "rgba(40, 167, 69, 0.8)",
+                    "tags": [
+                        "Carbon Capture",
+                        "Greenhouse Gases",
+                        "Sustainable Development"
+                    ],
+                    "title": "Carbon Dioxide Capture"
+                },
+                {
+                    "description": "Accurately measuring the thermophysical properties of chemical substances and developing predictive models to provide key parameters for chemical engineering design and simulation.",
+                    "icon": "whatshot",
+                    "icon_color": "rgba(220, 53, 69, 0.8)",
+                    "tags": [
+                        "Thermodynamics",
+                        "Model Prediction",
+                        "Property Database"
+                    ],
+                    "title": "Thermophysical Property Measurement and Model Development"
+                },
+                {
+                    "description": "Studying the phase behavior of mixture systems through precise measurement and theoretical simulation to optimize separation processes and process design.",
+                    "icon": "balance",
+                    "icon_color": "rgba(0, 123, 255, 0.8)",
+                    "tags": [
+                        "Phase Equilibrium",
+                        "Thermodynamic Models",
+                        "Separation Technology"
+                    ],
+                    "title": "Phase Equilibrium Measurement and Simulation"
+                },
+                {
+                    "description": "Developing innovative technologies to optimize chemical processes, improve efficiency and reduce energy consumption, and studying scale-up strategies from laboratory to industrial scale.",
+                    "icon": "settings_suggest",
+                    "icon_color": "rgba(255, 193, 7, 0.8)",
+                    "tags": [
+                        "Process Intensification",
+                        "Energy Efficiency",
+                        "Scale-up Design"
+                    ],
+                    "title": "Process Intensification and Scale-up Design"
+                }
+            ],
+            "title": "Research Areas"
+        }
+    },
+    "lab": {
+        "access_time": "Mon-Fri 09:00-17:00",
+        "college": {
+            "name": "College of Engineering",
+            "website": "https://www.ntust.edu.tw/college/engineering"
+        },
+        "college_department": "National Taiwan University of Science and Technology Department of Chemical Engineering",
+        "department": {
+            "name": "Department of Chemical Engineering",
+            "website": "https://www.ntust.edu.tw/department/chemical-engineering"
+        },
+        "description": "Dedicated to cutting-edge research in carbon dioxide capture, thermophysical property measurement, phase equilibrium simulation, and process intensification.",
+        "email": "",
+        "location": "ChE E2-504",
+        "members": [
+            {
+                "bio": "",
+                "email": "murry901028@gmail.com",
+                "email_edu": "M11306018@mail.ntust.edu.tw",
+                "image": "/assets/images/1dfc06983b7bba912fd102c2badf9f6d.jpeg",
+                "name": "黃春穆",
+                "research": "1.乳酸乙酯動力學模型建立<br />2.旋轉填充床產乳酸乙酯之反應蒸餾",
+                "titles": [
+                    "M2"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "a37939922@gmail.com",
+                "email_edu": "M11306114@mail.ntust.edu.tw",
+                "image": "/assets/images/eb9349b693bea4715ed9e4574431890e.jpeg",
+                "name": "周國鼎",
+                "research": "旋轉填充床吸收碳捕捉技術與質傳性能分析",
+                "titles": [
+                    "M2"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "chris901114@gmail.com",
+                "email_edu": "M11306003@mail.ntust.edu.tw",
+                "image": "/assets/images/e8ed04c12674693952c107c5daf007bb.jpg",
+                "name": "蕭于紘",
+                "research": "鑑定NaOAc於H2O-ACN混合溶劑之晶型，探討不同溶劑組成比例、系統溫度等變因對NaOAc晶型的影響",
+                "titles": [
+                    "M2"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "joesephm49@gmail.com",
+                "email_edu": "M11306804@mail.ntust.edu.tw",
+                "image": "/assets/images/6759a00dce36f47955202537ef57045e.jpeg",
+                "name": "沈謀雄",
+                "research": "Effects of Viscosity on Mass Transfer Coefficient in a Rotating Packed Bed",
+                "titles": [
+                    "M2"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "ascz0961184828@gmail.com",
+                "email_edu": "M11306041@mail.ntust.edu.tw",
+                "image": "/assets/images/062705272e19e365ee400ffa8b314c2e.png",
+                "name": "林柏陞",
+                "research": "強鹼溶液於超重力旋轉床進行碳捕捉之模擬",
+                "titles": [
+                    "M2"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "kelly98099@gmail.com",
+                "email_edu": "M11406160@mail.ntust.edu.tw",
+                "image": "/assets/images/6b9745b80e0a70f7300e51940ec34d59.jpeg",
+                "name": "黃凱稘",
+                "research": "",
+                "titles": [
+                    "M1"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "mirojing22@gmail.com",
+                "email_edu": "M11406121@mail.ntust.edu.tw",
+                "image": "/assets/images/4eaef7478509a35cad9c5bcf94cf743e.jpeg",
+                "name": "李柔靚",
+                "research": "MEA 溶劑的再生",
+                "titles": [
+                    "M1"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "chih.yi.0918@gmail.com",
+                "email_edu": "B11006117@mail.ntust.edu.tw",
+                "image": "/assets/images/3dbe79e6dfabb25e46ba2d0fb130cf4b.jpg",
+                "name": "林芷誼",
+                "research": "相平衡不確定性對蒸餾製程的影響",
+                "titles": [
+                    "M1"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "huangsiaoyuan@gmail.com",
+                "email_edu": "M11406009@mail.ntust.edu.tw",
+                "image": "/assets/images/80fa93e8de245c5d218615f88c9f5155.jpg",
+                "name": "黃筱媛",
+                "research": "",
+                "titles": [
+                    "M1"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "M11453030@gmail.com",
+                "email_edu": "M11453030@mail.ntust.edu.tw",
+                "image": "/assets/images/4a358e59470d0945d583f6e0982fe80c.jpg",
+                "name": "何岳樺",
+                "research": "",
+                "titles": [
+                    "M1"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "chenllov@gmail.com",
+                "email_edu": "B11106117@mail.ntust.edu.tw",
+                "image": "/assets/images/2d20c9f689a80314274c9629eddf912d.jpg",
+                "name": "陳柏宇",
+                "research": "",
+                "titles": [
+                    "Undergraduate"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "9431319@gmail.com",
+                "email_edu": "b11206023@mail.ntust.edu.tw",
+                "image": "/assets/images/0e8c7799f49369243f826668dbb83097.jpg",
+                "name": "林澄科",
+                "research": "",
+                "titles": [
+                    "Undergraduate"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "tony091817@gmail.com",
+                "email_edu": "b11206117@mail.ntust.edu.tw",
+                "image": "/assets/images/f492994aa5e5c57336e72b59119002cb.jpg",
+                "name": "童中志",
+                "research": "",
+                "titles": [
+                    "Undergraduate"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "11206qazwsxedc@gmail.com",
+                "email_edu": "M11206050@mail.ntust.edu.tw",
+                "image": "/assets/images/94cae135371bf637a8023f9aad3923a8.jpg",
+                "name": "黃光峻",
+                "research": "Blade & baffles RPB模擬及Hydraulic 分析",
+                "titles": [
+                    "Graduated"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "luo5718805@gmail.com",
+                "email_edu": "M11206113@mail.ntust.edu.tw",
+                "image": "/assets/images/e46204931e33ecfbebd47f7796c8c312.jpeg",
+                "name": "羅玥騏",
+                "research": "使用Aspen Plus進行二氧化碳捕捉模擬操作以及質量傳遞相關研究",
+                "titles": [
+                    "Graduated"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "jingfang0221@gmail.com",
+                "email_edu": "M11206142@mail.ntust.edu.tw",
+                "image": "/assets/images/244b52c6d270ae7fc5825536556aaa34.jpg",
+                "name": "賴靖方",
+                "research": "探討旋轉填充床中CO2化學吸收之溫度分佈",
+                "titles": [
+                    "Graduated"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "Jiatean@gmail.com",
+                "email_edu": "M11206804@mail.ntust.edu.tw",
+                "image": "/assets/images/cf72eb71607773a9764bf042c89928be.jpeg",
+                "name": "陳佳恬",
+                "research": "旋轉填充床中有效接觸面積之經驗式建立",
+                "titles": [
+                    "Graduated"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "sean890728@gmail.com",
+                "email_edu": "M11206004@mail.ntust.edu.tw",
+                "image": "/assets/images/66473c7fc6e373ec711f7349d7553a79.jpg",
+                "name": "吳櫂珅",
+                "research": "平衡板及質傳速率模型對旋轉填充床中之二氧化碳吸收劑再生模擬與分析",
+                "titles": [
+                    "Graduated"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "bboyallen8645@gmail.com",
+                "email_edu": "m11106003@mail.ntust.edu.tw",
+                "image": "/assets/images/a79cc22adcd05494957317082f2cb8ec.jpeg",
+                "name": "陸瑋倫",
+                "research": "變壓吸附捕碳之模擬",
+                "titles": [
+                    "Graduated"
+                ]
+            },
+            {
+                "bio": "",
+                "email": "qq465047@gmail.com.tw",
+                "email_edu": "M11106047@mail.ntust.edu.tw",
+                "image": "/assets/images/a48f4198339d3a89fca1eb901e77faff.jpg",
+                "name": "胡淀瑜",
+                "research": "鹽溶液熱力學及輸送性質",
+                "titles": [
+                    "Graduated"
+                ]
+            }
+        ],
+        "name": "Carbon Technology Lab",
+        "name_mainlang": "碳技術實驗室",
+        "name_sublang": "Carbon Technology Lab",
+        "phone": "(02)2733-3141#7605",
+        "pi": {
+            "company": "National Taiwan University of Science and Technology",
+            "company_department": "National Taiwan University of Science and Technology Department of Chemical Engineering",
+            "department": "Department of Chemical Engineering",
+            "description": "Our laboratory focuses on the development of core technologies in the energy and chemical engineering fields. Our research includes carbon dioxide capture, thermophysical property measurement, model building, phase equilibrium measurement and simulation, and process intensification techniques. We combine theoretical research with experimental measurements to develop operational methods and modeling tools applicable to industrial processes. Our laboratory also maintains close collaboration with industry, jointly developing and exchanging technologies to promote the implementation of low-carbon industries, sustainable processes, and advanced chemical technologies.",
+            "email": "chenghsiu.yu@mail.ntust.edu.tw",
+            "google_scholar": "https://scholar.google.com/citations?user=B6nyxakAAAAJ",
+            "image": "/assets/images/c22f0676228e2a561f72724a53d418b7.png",
+            "location": "ChE E2-611",
+            "location_link": "https://maps.app.goo.gl/AAnKas88YL7VsKne8",
+            "name": "Yu, Cheng-hsiu",
+            "name_title": "Yu, Cheng-hsiu Assistant Professor",
+            "phone": "(02)2737-6614",
+            "team": "Professor Yu, Cheng-hsiu Research Team",
+            "title": "Assistant Professor"
+        },
+        "university": {
+            "address": "No. 43, Sec. 4, Keelung Rd., Da'an Dist., Taipei City 106335, Taiwan (R.O.C.)",
+            "name": " National Taiwan University of Science and Technology",
+            "phone": "02-1234-5678",
+            "website": "https://www.ntust.edu.tw"
+        }
+    },
+    "members": {
+        "filter": {
+            "all": "All"
+        },
+        "title": "Members"
+    },
+    "nav": [
+        {
+            "link": "/",
+            "title": "Home"
+        },
+        {
+            "link": "/pi/",
+            "title": "Professor"
+        },
+        {
+            "link": "/members/",
+            "title": "Members"
+        },
+        {
+            "link": "/equipments/",
+            "title": "Equipments"
+        },
+        {
+            "link": "/publications/",
+            "title": "Publication"
+        }
+    ],
+    "pi": {
+        "bio": {
+            "education": {
+                "list": [
+                    {
+                        "degree": "Doctoral degree",
+                        "field": "Department of Chemical Engineering",
+                        "field_degree": "PhD in Chemical Engineering",
+                        "university": "National Tsing Hua University"
+                    },
+                    {
+                        "degree": "Master's degree",
+                        "field": "Department of Chemical Engineering",
+                        "field_degree": "Master of Chemical Engineering",
+                        "university": "Chung Yuan Christian University"
+                    },
+                    {
+                        "degree": "Bachelor degree",
+                        "field": "Department of Chemical Engineering",
+                        "field_degree": "Bachelor of Chemical Engineering",
+                        "university": "Chung Yuan Christian University"
+                    }
+                ],
+                "title": "Experience"
+            },
+            "title": "Principal Investigator",
+            "work": {
+                "list": [
+                    {
+                        "company": "National Taiwan University of Science and Technology ",
+                        "department": "Department of Chemical Engineering",
+                        "duration": "2022/08 - Now",
+                        "position": "Assistant professor"
+                    },
+                    {
+                        "company": "China Steel Corporation(CSC)",
+                        "department": "T72",
+                        "duration": "2021/2 - 2022/7",
+                        "position": "Engineer"
+                    },
+                    {
+                        "company": "Texas Tech University",
+                        "department": "Chemical Engineering",
+                        "duration": "2019/7 - 2021/1",
+                        "position": "Postdoctoral Researcher"
+                    },
+                    {
+                        "company": "RECIPROCAL PHI DESIGN INC.",
+                        "department": "",
+                        "duration": "2017/12 - 2019/5",
+                        "position": "Process Development Engineer"
+                    },
+                    {
+                        "company": "Texas Tech University",
+                        "department": "Chemical Engineering",
+                        "duration": "2016/10 - 2017/10",
+                        "position": "Postdoctoral Researcher"
+                    }
+                ],
+                "title": "Experience"
+            }
+        }
+    },
+    "publications": {
+        "filter": {
+            "all": "All",
+            "keyword": "Keyword",
+            "placeholder": "Search publications...",
+            "tag": "Category",
+            "year": "Year"
+        },
+        "list": [
+            {
+                "authors": [
+                    "Jia-Tean Ding",
+                    "Cheng-Hsiu Yu"
+                ],
+                "google_scholar": "",
+                "journal": "Industrial & Engineering Chemistry Research",
+                "link": "https://pubs.acs.org/doi/10.1021/acs.iecr.5c03033",
+                "month": 11,
+                "pages": "",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "Generalized Correlation for Effective Interfacial Area in Rotating Packed Beds",
+                "volume": "",
+                "year": 2025
+            },
+            {
+                "authors": [
+                    "Tien-Yu Hu",
+                    "Cheng-Hsiu Yu"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:8k81kl-MbHgC",
+                "journal": "Journal of Chemical & Engineering Data",
+                "link": "https://pubs.acs.org/doi/full/10.1021/acs.jced.4c00563",
+                "month": 2,
+                "pages": "1459-1468",
+                "tags": [
+                    {
+                        "color": "rgba(255, 193, 7, 0.8)",
+                        "name": "Thermal property quality measurement and model establishment"
+                    }
+                ],
+                "title": "Solubility of Sodium Acetate in a Water+ Acetonitrile Binary Solvent System and the Mixture Density",
+                "volume": "70",
+                "year": 2025
+            },
+            {
+                "authors": [
+                    "Amani Salsabil Husodo",
+                    "Cheng Hsiu Yu",
+                    "Setiyo Gunawan"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:0EnyYjriUFMC",
+                "journal": "Journal of Advanced Research in Fluid Mechanics and Thermal Sciences",
+                "link": "https://scholar.its.ac.id/en/publications/simulation-of-triglyceride-purification-from-crude-palm-oil-using",
+                "month": 1,
+                "pages": "54-65",
+                "tags": [
+                    {
+                        "color": "rgba(220, 53, 69, 0.8)",
+                        "name": "Process enhancement, improvement and scale-up design"
+                    }
+                ],
+                "title": "Simulation of Triglyceride Purification from Crude Palm Oil using Single Solvent Continuous Counter Current Extraction",
+                "volume": "125",
+                "year": 2025
+            },
+            {
+                "authors": [
+                    "Yueh-Chi Lo",
+                    "Yu-Shao Chen",
+                    "Cheng-Hsiu Yu"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:5nxA0vEk-isC",
+                "journal": "Available at SSRN 5071426",
+                "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5071426",
+                "month": 12,
+                "pages": "",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "Modeling of CO<sub>2</sub> chemical absorption using alkanolamine solutions in rotating packed beds",
+                "volume": "",
+                "year": 2024
+            },
+            {
+                "authors": [
+                    "Cheng-Hsiu Yu",
+                    "Chih-Hung Huang",
+                    "Chung-Sung Tan"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:d1gkVwhDpl0C",
+                "journal": "Aerosol and air quality research",
+                "link": "https://link.springer.com/article/10.4209/aaqr.2012.05.0132",
+                "month": 11,
+                "pages": "745-769",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "A review of CO<sub>2</sub> capture by absorption and adsorption",
+                "volume": "12",
+                "year": 2024
+            },
+            {
+                "authors": [
+                    "Cheng-Hsiu Yu",
+                    "Yu-Jeng Lin",
+                    "David Shan-Hill Wong",
+                    "Chau-Chyun Chen"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:UebtZRa9Y70C",
+                "journal": "Industrial & Engineering Chemistry Research",
+                "link": "https://pubs.acs.org/doi/full/10.1021/acs.iecr.1c04323",
+                "month": 2,
+                "pages": "12142-12152",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "Process Modeling of CO<sub>2</sub> Absorption with Monoethanolamine Aqueous Solutions Using Rotating Packed Beds",
+                "volume": "64",
+                "year": 2022
+            },
+            {
+                "authors": [
+                    "Cheng-Hsiu Yu",
+                    "Yu-Jeng Lin",
+                    "David Shan-Hill Wong",
+                    "Juan Carles Bruno",
+                    "Chau-Chyun Chen"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:ufrVoPGSRksC",
+                "journal": "Fluid Phase Equilibria",
+                "link": "https://www.sciencedirect.com/science/article/pii/S0378381220304155",
+                "month": 2,
+                "pages": "",
+                "tags": [
+                    {
+                        "color": "rgba(23, 162, 184, 0.8)",
+                        "name": "Phase equilibrium measurement and simulation"
+                    }
+                ],
+                "title": "Modeling fluid phase equilibria of carbon dioxide-methanol binary system",
+                "volume": "529",
+                "year": 2021
+            },
+            {
+                "authors": [
+                    "Benjamin Caudle",
+                    "Toni E Kirkes",
+                    "Cheng‐Hsiu Yu",
+                    "Chau‐Chyun Chen"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:Se3iqnhoufwC",
+                "journal": "Chemical Engineering in the Pharmaceutical Industry: Active Pharmaceutical Ingredients",
+                "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119600800.ch21",
+                "month": 3,
+                "pages": "493-504",
+                "tags": [
+                    {
+                        "color": "rgba(255, 193, 7, 0.8)",
+                        "name": "Thermal property quality measurement and model establishment"
+                    }
+                ],
+                "title": "Thermodynamic Modeling of Aqueous and Mixed Solvent Electrolyte Systems",
+                "volume": "",
+                "year": 2019
+            },
+            {
+                "authors": [
+                    "Cheng-Hsiu Yu",
+                    "Ming-Tsz Chen",
+                    "Hao Chen",
+                    "Chung-Sung Tan"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:Tyk-4Ss8FVUC",
+                "journal": "Applied Energy",
+                "link": "https://www.sciencedirect.com/science/article/pii/S0306261916306389",
+                "month": 8,
+                "pages": "269-276",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "Effects of process configurations for combination of rotating packed bed and packed bed on CO<sub>2</sub> capture",
+                "volume": "175",
+                "year": 2016
+            },
+            {
+                "authors": [
+                    "Matt Thiels",
+                    "David SH Wong",
+                    "Cheng-Hsiu Yu",
+                    "Jia-Lin Kang",
+                    "Shi Shang Jang",
+                    "Chung-San Tan"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:W7OEmFMy1HYC",
+                "journal": "IFAC-PapersOnLine",
+                "link": "https://www.sciencedirect.com/science/article/pii/S2405896316305109",
+                "month": 1,
+                "pages": "895-900",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "Modelling and design of carbon dioxide absorption in rotating packed bed and packed column",
+                "volume": "49",
+                "year": 2016
+            },
+            {
+                "authors": [
+                    "Cheng-Hsiu Yu",
+                    "Yu-Xiao Lin",
+                    "Chung-Sung Tan"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:IjCSPb-OGe4C",
+                "journal": "International Journal of Greenhouse Gas Control",
+                "link": "https://www.sciencedirect.com/science/article/pii/S1750583614002539",
+                "month": 11,
+                "pages": "118-124",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "Effects of inorganic salts on absorption of CO<sub>2</sub> and O<sub>2</sub> for absorbents containing diethylenetriamine and piperazine",
+                "volume": "30",
+                "year": 2014
+            },
+            {
+                "authors": [
+                    "Cheng-Hsiu Yu",
+                    "Chung-Sung Tan"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:zYLM7Y9cAGgC",
+                "journal": "Energy Procedia",
+                "link": "https://www.sciencedirect.com/science/article/pii/S1876610214018992",
+                "month": 1,
+                "pages": "758-764",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "CO<sub>2</sub> capture by aqueous solution containing mixed alkanolamines and diethylene glycol in a rotating packed bed",
+                "volume": "63",
+                "year": 2014
+            },
+            {
+                "authors": [
+                    "Cheng-Hsiu Yu",
+                    "Tsai-Wei Wu",
+                    "Chung-Sung Tan"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:qjMakFHDy7sC",
+                "journal": "International Journal of Greenhouse Gas Control",
+                "link": "https://www.sciencedirect.com/science/article/pii/S175058361200076X",
+                "month": 11,
+                "pages": "503-509",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "CO<sub>2</sub> capture by piperazine mixed with non-aqueous solvent diethylene glycol in a rotating packed bed",
+                "volume": "19",
+                "year": 2013
+            },
+            {
+                "authors": [
+                    "Cheng-Hsiu Yu",
+                    "Chung-Sung Tan"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:UeHWp8X0CEIC",
+                "journal": "Energy Procedia",
+                "link": "https://www.sciencedirect.com/science/article/pii/S1876610213001410",
+                "month": 1,
+                "pages": "455-460",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "Mixed alkanolamines with low regeneration energy for CO<sub>2</sub> capture in a rotating packed bed",
+                "volume": "37",
+                "year": 2013
+            },
+            {
+                "authors": [
+                    "Cheng-Hsiu Yu",
+                    "Hsu-Hsiang Cheng",
+                    "Chung-Sung Tan"
+                ],
+                "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=B6nyxakAAAAJ:2osOgNQ5qMEC",
+                "journal": "International Journal of Greenhouse Gas Control",
+                "link": "https://www.sciencedirect.com/science/article/pii/S175058361200076X",
+                "month": 7,
+                "pages": "136-147",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "CO<sub>2</sub> capture by alkanolamine solutions containing diethylenetriamine and piperazine in a rotating packed bed",
+                "volume": "9",
+                "year": 2012
+            }
+        ],
+        "title": "Publications"
+    },
+    "title": {
+        "format": "%s｜%l",
+        "subformat": "%n－%t",
+        "trimming": "['｜', '－', '|', '-', ' ']"
+    }
 }
