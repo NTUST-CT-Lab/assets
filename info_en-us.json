@@ -643,6 +643,28 @@
         "list": [
             {
                 "authors": [
+                    "Chin-Fang Lai",
+                    "Hsin-Ying Lin",
+                    "Cheng-Hsiu Yu",
+                    "Yu-Shao Chen"
+                ],
+                "google_scholar": "",
+                "journal": "Industrial & Engineering Chemistry Research",
+                "link": "https://doi.org/10.1021/acs.iecr.5c04196",
+                "month": 2,
+                "pages": "3420-3427",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "CO<sub>2</sub> Chemical Absorption and Temperature Profile in a Rotating Packed Bed Equipped with Blades and Baffles",
+                "volume": "65",
+                "year": 2026
+            },
+            {
+                "authors": [
                     "Jia-Tean Ding",
                     "Cheng-Hsiu Yu"
                 ],
