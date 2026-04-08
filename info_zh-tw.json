@@ -64,22 +64,12 @@
                 },
                 {
                     "description": "",
-                    "image": "/assets/equipments/(3).jpg",
-                    "title": ""
-                },
-                {
-                    "description": "",
                     "image": "/assets/equipments/(4).jpg",
                     "title": ""
                 },
                 {
                     "description": "",
                     "image": "/assets/equipments/(5).jpg",
-                    "title": ""
-                },
-                {
-                    "description": "",
-                    "image": "/assets/equipments/(6).jpg",
                     "title": ""
                 },
                 {
@@ -95,11 +85,6 @@
                 {
                     "description": "",
                     "image": "/assets/equipments/(9).jpg",
-                    "title": ""
-                },
-                {
-                    "description": "",
-                    "image": "/assets/equipments/(10).jpg",
                     "title": ""
                 },
                 {
@@ -134,27 +119,7 @@
                 },
                 {
                     "description": "",
-                    "image": "/assets/equipments/(17).jpg",
-                    "title": ""
-                },
-                {
-                    "description": "",
-                    "image": "/assets/equipments/(18).jpg",
-                    "title": ""
-                },
-                {
-                    "description": "",
                     "image": "/assets/equipments/(19).jpg",
-                    "title": ""
-                },
-                {
-                    "description": "",
-                    "image": "/assets/equipments/(20).jpg",
-                    "title": ""
-                },
-                {
-                    "description": "",
-                    "image": "/assets/equipments/(21).jpg",
                     "title": ""
                 }
             ],
@@ -205,11 +170,6 @@
                 {
                     "description": "",
                     "image": "/assets/activities/27e40471742acde8f7295b1c5c14100d.jpg",
-                    "title": ""
-                },
-                {
-                    "description": "",
-                    "image": "/assets/activities/f43944e6528ead0c36f55003c53a094a.jpg",
                     "title": ""
                 }
             ],
