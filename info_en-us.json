@@ -603,6 +603,27 @@
         "list": [
             {
                 "authors": [
+                    "Joeseph Marvin",
+                    "Yu-Shao Chen",
+                    "Cheng-Hsiu Yu"
+                ],
+                "google_scholar": "",
+                "journal": "Process Safety and Environmental Protection",
+                "link": "https://www.sciencedirect.com/science/article/pii/S0957582026013364",
+                "month": 10,
+                "pages": "",
+                "tags": [
+                    {
+                        "color": "rgba(40, 167, 69, 0.8)",
+                        "name": "Carbon dioxide capture"
+                    }
+                ],
+                "title": "Thermal behavior of high-gravity CO<sub>2</sub> absorption in rotating packed beds: Observation of temperature bulge under near-saturated gas conditions, Process Safety and Environmental Protection",
+                "volume": "221",
+                "year": 2026
+            },
+            {
+                "authors": [
                     "Chin-Fang Lai",
                     "Hsin-Ying Lin",
                     "Cheng-Hsiu Yu",
